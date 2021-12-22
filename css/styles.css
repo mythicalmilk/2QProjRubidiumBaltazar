@@ -1,0 +1,72 @@
+body {
+	background-color:#c7e6eb;
+}
+
+.flex-container {
+  display: flex;
+	flex-wrap:wrap
+}
+
+.flex-container > div, main, nav, article, section, header, aside {
+  background-color: #95dce6;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flexbox-item-1 {
+	align-self: flex-start;
+}
+
+.flexbox-item-2 {
+	color:white;
+}
+
+.flexbox-item-3 {
+	max-width:160px;
+	font-style:italic;
+}
+
+.flexbox-item-4 {
+	width:214px;
+}
+.flexbox-item-5 {
+	width:214px;
+}
+.flexbox-item-6 {
+	width:214px;
+}
+.flexbox-item-7 {
+	width:214px;
+}
+
+.flexbox-item-8 {
+	
+}
+
+.flexbox-item-9 {
+	color:white;
+	width: 300px;
+	text-align:center;
+	
+}
+
+.flexbox-item-10 {
+	width:320px;
+}
+
+.flexbox-item-11{
+	color:#445457;
+	
+}
+
+.flexbox-item-12 {
+	color:#445457;
+	font-style:italic;
+	
+}
+
+.flexbox-item-13 {
+	color:#445457;
+	
+}
