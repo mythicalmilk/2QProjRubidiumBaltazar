@@ -1,5 +1,5 @@
 body {
-	background-color:#c7e6eb;
+	background-color: #dea1ff;
 }
 
 .flex-container {
@@ -7,8 +7,8 @@ body {
 	flex-wrap:wrap
 }
 
-.flex-container > div, main, nav, article, section, header, aside {
-  background-color: #95dce6;
+.flex-container > div, main, nav, article, section, header, aside, figure {
+  background-color: #bd42ff;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -20,53 +20,233 @@ body {
 
 .flexbox-item-2 {
 	color:white;
+	width:1053px;
 }
 
 .flexbox-item-3 {
 	max-width:160px;
 	font-style:italic;
 }
-
+ 
 .flexbox-item-4 {
-	width:214px;
+	width:218px;
 }
 .flexbox-item-5 {
-	width:214px;
+	width:218px;
 }
 .flexbox-item-6 {
-	width:214px;
+	width:218px;
 }
 .flexbox-item-7 {
-	width:214px;
+	width:218px;
 }
-
+/* ayaka page start */
+ 
 .flexbox-item-8 {
 	
 }
 
 .flexbox-item-9 {
 	color:white;
-	width: 300px;
+	width: 380px;
 	text-align:center;
+	font-size: 40px;
 	
 }
 
 .flexbox-item-10 {
-	width:320px;
+	position: fixed;
+	right: 0;
+	height: 100%;
 }
 
+ul {
+	list-style-type:none;
+	margin: 0 !IMPORTANT;
+	padding: 0 !IMPORTANT;
+	width: 230px;
+}
+
+li>a {
+	display: block;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px !IMPORTANT;
+	border-top: 1px solid black;
+}
+
+li>a:hover {
+	background-color: gray;
+}
+
+.borders {
+	border-bottom: 1px solid black;
+}
+nav {
+	margin: 0px !IMPORTANT;
+    padding: 0px !IMPORTANT;
+	color: purple;
+}
 .flexbox-item-11{
 	color:#445457;
+	width: 1040px;
 	
 }
 
 .flexbox-item-12 {
 	color:#445457;
 	font-style:italic;
-	
+	font-size:20px;
+	width: 1040px;
 }
 
 .flexbox-item-13 {
 	color:#445457;
+	width: 1040px;
 	
+}
+/*kazuha page start */
+
+.flexbox-item-14 {
+	color:white;
+	width: 380px;
+	text-align:center;
+	font-size: 40px;
+	
+}
+
+.flexbox-item-15 {
+	color:#445457;
+	
+}
+
+.flexbox-item-16 {
+	position: fixed;
+	right: 0;
+}
+
+.flexbox-item-17 {
+	width: 1040px;
+	color: white;
+}
+
+.flexbox-item-18 {
+	width: 1040px;
+	color: white;
+}
+
+ footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  display: block;
+}
+
+#twitter {
+	background-image: url('../images/sprites4.png');
+	background-repeat: no-repeat;
+	width: 39px;
+	height: 39px;
+	display:inline-block;
+	background-position: -310px -39px;
+}
+
+#youtube {
+	background-image: url('../images/sprites4.png');
+	background-repeat: no-repeat;
+	width: 39px;
+	height: 39px;
+	display:inline-block;
+	background-position: -391px -39px;
+}
+
+#facebook {
+	background-image: url('../images/sprites4.png');
+	background-repeat: no-repeat;
+	width: 39px;
+	height: 39px;
+	display:inline-block;
+	background-position: 0px -39px;
+}
+
+#twitter:hover {
+	transform: rotate(30deg);
+	transition-duration: 1s;
+}
+#youtube:hover {
+	transform: rotate(30deg);
+	transition-duration: 1s;
+}
+
+#facebook:hover {
+	transform: rotate(30deg);
+	transition-duration: 1s;
+}
+
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: #7316a6
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: magenta;
+}
+
+.redbgc {
+	background-color: #820812;
+	color: white;
+}
+
+.pinkbgc {
+	background-color: pink;
+	color: white;
+}
+
+.Lgreenbgc {
+	background-color: LightGreen;
+}
+
+.greenbgc {
+	background-color: #42ba1e;
+
+}
+
+.bluebgc {
+	background-color: #0096b8;
+}
+
+.flexbox-item-28 {
+	width: 1040px;
+	color: white;
+}
+.flexbox-item-29 {
+	width: 600px;
+}
+.flexbox-item-30 {
+	width: 600px;
+	color: white;
+}
+
+.bluebgc2 {
+	background-color: #95dce6
+}
+
+.bluebgc3 {
+	background-color:#c7e6eb;
+}
+
+.lightfont {
+	color: #ffbaf7;
 }
